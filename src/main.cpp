@@ -1,6 +1,6 @@
 /*
  * CO2 / Pressure / Temperature / Humitidty Sensor
- (c) 2019 Mazy
+ *
 */
 
 #include <Arduino.h>
