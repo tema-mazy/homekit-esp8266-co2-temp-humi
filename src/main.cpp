@@ -44,8 +44,11 @@ HTU21D            htu(HTU21D_RES_RH12_TEMP14);
 #define LED_ESP D4     // esp onboard GPIO2
 #define LED_MCU D0     // nodemcu onboard GPIO16
 
-#define MH_Z19_RX D5
-#define MH_Z19_TX D6
+#define MH_Z19_RX D5  // green 
+#define MH_Z19_TX D6  // blue
+
+#define SDA_H     D2
+#define SCL_H     D1
 
 #define INTERVAL 30.0       // read interval, s;
 
